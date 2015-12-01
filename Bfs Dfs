@@ -1,1 +1,13 @@
 // all about Dfs and Bfs
+
+// DFS
+Applications of Depth First Search:
+1) For an unweighted graph, DFS traversal of the graph produces the minimum spanning tree and all pair shortest path tree.
+2) Detecting cycle in a graph
+   A graph has cycle if and only if we see a back edge during DFS. So we can run DFS for the graph and check for back edges.
+3) Path Finding
+   We can specialize the DFS algorithm to find a path between two given vertices u and z.
+4) Topological Sorting
+6) Finding Strongly Connected Components of a graph A directed graph is called strongly connected if there is a path from each 
+   vertex in the graph to every other vertex.
+7) Solving puzzles with only one solution, such as mazes.
