@@ -84,3 +84,15 @@ int main()
     }
     return 0;
 }
+
+*****************************
+1
+10 11
+10 0 10 1 10 2 12 1 10 0 10 1 10 2 0 0
+
+
+1. when you get RE
+possible reasons:
+if you take all node in map, sometimes uva give unknown node as source node in test cases like 12 1
+and if you try to get access with 12
+your_map.at(12) you will get Run time error RE.
